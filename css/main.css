@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body{
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgba(0, 0, 255, 0.794);
+    background-color: rgb(226, 221, 221);
+}
+
+/*******HEADER********/
+.header{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 25%;
+}
+
+.photoperso{
+    height: 200px;
+}
+/*******FIN DU HEADER********/
+/*******NAVBAR***************/
+nav{
+    background-color:rgba(0, 0, 255, 0.794);  
+}
+
+nav ul{
+    margin: 0%;
+    padding: 0 0 0 20%;
+    display: flex;
+    font-size: 20px;
+}    
+
+nav li{
+    list-style-type: none;  
+    width: 33,3%;
+    text-align: center; 
+}
+
+nav a{
+    color: white;
+    display: block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px; 
+}
+
+.menuinfo:hover{
+    border-top: solid palevioletred;
+    background-color: plum;
+}
+
+.menuexperience:hover{
+    border-top: solid palevioletred;
+    background-color: plum;
+}
+    
+.menucontact:hover{
+    border-top: solid palevioletred;
+    background-color: plum;
+   
+}
+
+/*******FIN NAVBAR***************/
+
+/********CORPS*************/
+.corps{
+    padding: 0% 2%;
+}
+
+h2{ 
+    margin:0px;
+    padding: 30px 0px;   
+}
+
+.gauche{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.col1{
+    width: 20%;
+}
+
+.col2{
+    width: 80%;
+}
+
+.borderbottom{
+    border-bottom: 1px solid white;
+}
+
+.accueil{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+label{
+    width: 20%;
+    display: block;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.margintop{
+    margin-top:2%;
+}
+
+.marginbot{
+    margin-bottom: 5%;
+}
+
+/***********FOOTER*************/
+.footer{
+    text-align: center;
+    background-color:rgba(0, 0, 255, 0.794);
+    color: white;
+    padding: 10px;
+}
+
+.buttoncontact{
+    margin-left: 23%;
+    width: 200px;
+}
+
+th{
+    padding: 10px 20px;
+    border: 1px solid plum;
+}
+
+td{
+    padding: 10px 20px;
+    border: 1px solid plum;
+}
+/***********FIN FOOTER*********/
+
+@media (max-width:768px){
+     body{font-size:15px;}
+
+     .photoperso{
+        height: 150px;}
+
+     .col1{
+        width: 30%;}
+    
+     .col2{
+        width: 70%;}
+     .header{
+        margin: 0%;
+        padding: 0%;}
+     .nav ul{
+         font-size: 10px;
+     }   
+    }
+  
